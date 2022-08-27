@@ -1,0 +1,56 @@
+body {
+    min-width: 768px;
+}
+
+.card {
+    flex-direction: row;
+    height: 50vh;
+
+}
+
+.card__img {
+    order: 2;
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-image: url("/images/image-header-desktop.jpg");
+}
+
+.card__background {
+    width: 100%;
+}
+
+.card__body {
+    width: 50%;
+    padding: 3rem 7rem 1rem;
+    text-align: left;
+}
+
+.card__body h2 {
+    font-size: 3.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.card__body>p {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    padding-right: 3rem;
+}
+
+.card__data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-right: 4rem;
+    width: 100%;
+}
+
+.card__number {
+    text-align: justify;
+}
+.card__number p:nth-child(1) {
+    font-size: 2rem;
+}
+.card__number p:nth-child(2) {
+    font-size: 1rem;
+}
